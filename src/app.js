@@ -4,7 +4,7 @@ const helmet = require('helmet');
 const cors = require('cors');
 
 const middlewares = require('./middlewares');
-const api = require('./api');
+const api = require(__dirname + '/api');
 
 const app = express();
 
