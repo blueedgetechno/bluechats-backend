@@ -1,4 +1,4 @@
-const app = require('./app');
+const app = require(__dirname + '/app');
 
 const createError = require('http-errors');
 const express = require('express');
